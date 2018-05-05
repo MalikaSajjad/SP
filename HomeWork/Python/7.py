@@ -12,7 +12,7 @@ def get_all_names(string):
 		for i in td:
 			lst_.append(i.text)
 		
-	return lst_[:5000]
+	return lst_[:3000]
 		
 def main():
 	lst = glob.glob("/home/malika/sysP/Homework/babynames/*.html")
