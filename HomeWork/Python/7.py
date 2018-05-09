@@ -3,8 +3,8 @@ import glob	# to read all files from a directory
 
 def get_all_names(string):
 	lst_ = []
-	soup = BeautifulSoup(string, "html.parser")
-	table = soup.find(text="Female name").find_parent("table")
+	soup = BeautifulSoup(string, "lxml")
+	table = soup.find("table" , summary = "Popularity for top 1000")
 	#print len(table) 			# dnt know why len(table) = 2 , 1 is req :-(
 	table_rows = table.find_all('tr')
 	for tr in table_rows[:-1]:
