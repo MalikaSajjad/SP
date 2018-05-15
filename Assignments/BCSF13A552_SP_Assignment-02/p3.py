@@ -1,3 +1,5 @@
+####python script that finds 2 by 2 matrix from 8 by 8 matrix
+
 import sys 
 
 def findMatrix(lst,m):
