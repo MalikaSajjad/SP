@@ -1,3 +1,6 @@
+##python script that downloads last 26 mp3 files of all Qaris from given link:https://download.quranicaudio.com/quran/
+##and merge all 26 mp3 files and make a single file with the name of second_Half.mp3
+
 import requests
 from PIL import Image
 from bs4 import BeautifulSoup
