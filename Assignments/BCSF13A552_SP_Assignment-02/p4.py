@@ -1,3 +1,5 @@
+######a python script that displays detailed info of a given process by using the PID(s) (passed as command line argument(s)
+
 import psutil 
 import sys
 import os
