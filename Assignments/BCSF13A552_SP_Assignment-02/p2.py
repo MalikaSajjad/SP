@@ -1,3 +1,5 @@
+### parse 5 pages of sports section and return url(s) of articles against user's provided keywords
+
 import requests
 from PIL import Image
 from bs4 import BeautifulSoup
@@ -68,6 +70,7 @@ def main():
 if __name__ == "__main__":
 	links = []	# global list "'links' in globals()" 
 	main()
+	
 
 
 
