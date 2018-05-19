@@ -16,5 +16,4 @@ print "Files opened by the process info:", p.get_open_files()
 print "Memory Info (In Bytes):", p.get_memory_info()
 
 
-#if __name__ == __main__:
-	
+#if __name__ == __main__:	
